@@ -1,0 +1,822 @@
+[
+    {
+        "id": 4551,
+        "annotations": [
+            {
+                "id": 3970,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 36,
+                            "end": 41,
+                            "text": "JONES",
+                            "labels": [
+                                "Last_Name"
+                            ]
+                        },
+                        "id": "Fga4JUwYrK",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction"
+                    },
+                    {
+                        "value": {
+                            "start": 42,
+                            "end": 57,
+                            "text": "MARGARET CHERYL",
+                            "labels": [
+                                "First_Name"
+                            ]
+                        },
+                        "id": "V-JE51bFIM",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction"
+                    },
+                    {
+                        "value": {
+                            "start": 58,
+                            "end": 89,
+                            "text": "50 SMITH ST\nSMITHVILLE QLD 9999",
+                            "labels": [
+                                "Address"
+                            ]
+                        },
+                        "id": "CSKEFNdhHs",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction"
+                    },
+                    {
+                        "value": {
+                            "start": 112,
+                            "end": 113,
+                            "text": "F",
+                            "labels": [
+                                "Sex"
+                            ]
+                        },
+                        "id": "_GdaZZBShU",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction"
+                    },
+                    {
+                        "value": {
+                            "start": 114,
+                            "end": 117,
+                            "text": "170",
+                            "labels": [
+                                "Height"
+                            ]
+                        },
+                        "id": "ZP6e3_QUc-",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction-changed"
+                    },
+                    {
+                        "value": {
+                            "start": 140,
+                            "end": 150,
+                            "text": "Queensland",
+                            "labels": [
+                                "State"
+                            ]
+                        },
+                        "id": "soJJjRdlrL",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2024-08-04T17:39:29.484813Z",
+                "updated_at": "2024-08-04T17:39:29.484813Z",
+                "draft_created_at": "2024-08-04T17:31:49.205870Z",
+                "lead_time": 467.361,
+                "prediction": {},
+                "result_count": 0,
+                "unique_id": "5b517ba3-fa33-43ea-8b53-3e2a9c673fca",
+                "import_id": null,
+                "last_action": null,
+                "task": 4551,
+                "project": 40,
+                "updated_by": 1,
+                "parent_prediction": 1115,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "f8df5b68-label_studio_data.json",
+        "drafts": [],
+        "predictions": [
+            1115
+        ],
+        "data": {
+            "text": "Driver\nucend - No\nj U 216 *\nLicence\nJONES MARGARET CHERYL\n50 SMITH ST\nSMITHVILLE QLD 9999\nitninre\naply\n26-03-80 F 170\n01-07-2006 30-06-2011\nQueensland\nGoverament\neens and Transport",
+            "id": 1305404844,
+            "annotator": 1,
+            "annotation_id": 2235351029,
+            "created_at": "2024-08-04T23:05:54.555408",
+            "updated_at": "2024-08-04T23:05:54.555408",
+            "lead_time": 0.0,
+            "label": []
+        },
+        "meta": {},
+        "created_at": "2024-08-04T17:06:08.543244Z",
+        "updated_at": "2024-08-04T17:39:29.575857Z",
+        "inner_id": 22,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 1,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 40,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 4545,
+        "annotations": [
+            {
+                "id": 3966,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 15,
+                            "end": 23,
+                            "text": "TASMANIA",
+                            "labels": [
+                                "State"
+                            ]
+                        },
+                        "id": "V2TBr1XHDK",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction"
+                    },
+                    {
+                        "value": {
+                            "start": 24,
+                            "end": 33,
+                            "text": "AUSTRALIA",
+                            "labels": [
+                                "Country"
+                            ]
+                        },
+                        "id": "BbBv2Cze9A",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction-changed"
+                    },
+                    {
+                        "value": {
+                            "start": 55,
+                            "end": 63,
+                            "text": "55269271",
+                            "labels": [
+                                "License_Number"
+                            ]
+                        },
+                        "id": "kE_Jrnw5D7",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction"
+                    },
+                    {
+                        "value": {
+                            "start": 134,
+                            "end": 141,
+                            "text": "JOSEPHI",
+                            "labels": [
+                                "First_Name"
+                            ]
+                        },
+                        "id": "F4fnKaKB7y",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction-changed"
+                    },
+                    {
+                        "value": {
+                            "start": 115,
+                            "end": 123,
+                            "text": "CITIZENE",
+                            "labels": [
+                                "Last_Name"
+                            ]
+                        },
+                        "id": "KvnjGDeLIe",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 155,
+                            "end": 187,
+                            "text": "100TASMANIA ROADI Ã Ã \\nSNUG 7054",
+                            "labels": [
+                                "Address"
+                            ]
+                        },
+                        "id": "UjiT6XprNJ",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2024-08-04T17:27:41.201278Z",
+                "updated_at": "2024-08-04T17:27:41.201278Z",
+                "draft_created_at": "2024-08-04T17:26:39.252019Z",
+                "lead_time": 70.572,
+                "prediction": {},
+                "result_count": 0,
+                "unique_id": "e87f409d-09e8-4032-9f35-e104fe850232",
+                "import_id": null,
+                "last_action": null,
+                "task": 4545,
+                "project": 40,
+                "updated_by": 1,
+                "parent_prediction": 1109,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "f8df5b68-label_studio_data.json",
+        "drafts": [],
+        "predictions": [
+            1109
+        ],
+        "data": {
+            "text": "DRIVER LICENCE\nTASMANIA AUSTRALIA\nTasmanial\nLIC . NO a 55269271\nD . O . B :\n15NOV1972\nFULLC , EXP IRES 31 MAR 2010\nCITIZENE Last Name\nJOSEPHI\nFirst Name .\n100TASMANIA ROADI Ã Ã \nSNUG 7054\nDEPARIMENT OF INFRASTRUCTURE , ENERGY AND RE SOURCES",
+            "id": 583127544,
+            "annotator": 1,
+            "annotation_id": 2601574167,
+            "created_at": "2024-08-04T23:05:54.555408",
+            "updated_at": "2024-08-04T23:05:54.555408",
+            "lead_time": 0.0,
+            "label": []
+        },
+        "meta": {},
+        "created_at": "2024-08-04T17:06:08.543244Z",
+        "updated_at": "2024-08-04T17:27:41.271085Z",
+        "inner_id": 16,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 1,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 40,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 4550,
+        "annotations": [
+            {
+                "id": 3969,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 28,
+                            "end": 38,
+                            "text": "118 - 5099",
+                            "labels": [
+                                "License_Number"
+                            ]
+                        },
+                        "id": "lOIwBKHPCo",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction"
+                    },
+                    {
+                        "value": {
+                            "start": 41,
+                            "end": 49,
+                            "text": "BORISOVA",
+                            "labels": [
+                                "Last_Name"
+                            ]
+                        },
+                        "id": "HRa5gG3T6M",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction"
+                    },
+                    {
+                        "value": {
+                            "start": 50,
+                            "end": 59,
+                            "text": "VALENTINA",
+                            "labels": [
+                                "First_Name"
+                            ]
+                        },
+                        "id": "jHzSRdZJKj",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction"
+                    },
+                    {
+                        "value": {
+                            "start": 80,
+                            "end": 81,
+                            "text": "F",
+                            "labels": [
+                                "Sex"
+                            ]
+                        },
+                        "id": "TiVUEKhoxr",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction"
+                    },
+                    {
+                        "value": {
+                            "start": 89,
+                            "end": 92,
+                            "text": "168",
+                            "labels": [
+                                "Height"
+                            ]
+                        },
+                        "id": "CUZjpXD1zJ",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 122,
+                            "end": 123,
+                            "text": "C",
+                            "labels": [
+                                "Class"
+                            ]
+                        },
+                        "id": "HmbhwlFFP6",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 163,
+                            "end": 173,
+                            "text": "Queensland",
+                            "labels": [
+                                "State"
+                            ]
+                        },
+                        "id": "8lsjNWHQ_i",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 185,
+                            "end": 195,
+                            "text": "Queenstond",
+                            "labels": [
+                                "State"
+                            ]
+                        },
+                        "id": "vJJ8qzOLDz",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 198,
+                            "end": 207,
+                            "text": "Australia",
+                            "labels": [
+                                "Country"
+                            ]
+                        },
+                        "id": "KHZmrVsIHp",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2024-08-04T17:31:27.229994Z",
+                "updated_at": "2024-08-04T17:31:27.229994Z",
+                "draft_created_at": "2024-08-04T17:30:17.815993Z",
+                "lead_time": 86.692,
+                "prediction": {},
+                "result_count": 0,
+                "unique_id": "2818ff04-0aa3-49b3-9ba7-0f386aa62de8",
+                "import_id": null,
+                "last_action": null,
+                "task": 4550,
+                "project": 40,
+                "updated_by": 1,
+                "parent_prediction": 1114,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "f8df5b68-label_studio_data.json",
+        "drafts": [],
+        "predictions": [
+            1114
+        ],
+        "data": {
+            "text": "Driver Licence\nLICENCE NO :\n118 - 5099 -\nBORISOVA\nVALENTINA\nDOB 16 Nov 1984 Sex F\nHeight 168\nClass Type Effective\nExp iry\nC\n19 . 06 . 15 18 . 06 . 18\nCondirions\n-\nQueensland\nGovernment\nQueenstond , Australia\nDrive safely",
+            "id": 39650182,
+            "annotator": 1,
+            "annotation_id": 755926209,
+            "created_at": "2024-08-04T23:05:54.555408",
+            "updated_at": "2024-08-04T23:05:54.555408",
+            "lead_time": 0.0,
+            "label": []
+        },
+        "meta": {},
+        "created_at": "2024-08-04T17:06:08.543244Z",
+        "updated_at": "2024-08-04T17:31:27.315022Z",
+        "inner_id": 21,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 1,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 40,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 4541,
+        "annotations": [
+            {
+                "id": 3964,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 15,
+                            "end": 23,
+                            "text": "VICTORIA",
+                            "labels": [
+                                "State"
+                            ]
+                        },
+                        "id": "d4pYtKrIJC",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction"
+                    },
+                    {
+                        "value": {
+                            "start": 24,
+                            "end": 34,
+                            "text": "AUSTRALIA\n",
+                            "labels": [
+                                "Country"
+                            ]
+                        },
+                        "id": "cOWcHIs4M2",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction-changed"
+                    },
+                    {
+                        "value": {
+                            "start": 57,
+                            "end": 66,
+                            "text": "051395622",
+                            "labels": [
+                                "License_Number"
+                            ]
+                        },
+                        "id": "BGpPB2TQV7",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction"
+                    },
+                    {
+                        "value": {
+                            "start": 34,
+                            "end": 39,
+                            "text": "ZHANG",
+                            "labels": [
+                                "Last_Name"
+                            ]
+                        },
+                        "id": "C2YMMiuTLR",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 40,
+                            "end": 43,
+                            "text": "LIU",
+                            "labels": [
+                                "First_Name"
+                            ]
+                        },
+                        "id": "N8MWmhO-Q_",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 84,
+                            "end": 107,
+                            "text": "SPRINGVALE SOUTHVIC3172",
+                            "labels": [
+                                "Address"
+                            ]
+                        },
+                        "id": "N_9it3GkUp",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 67,
+                            "end": 83,
+                            "text": "2MONTCLAIR CLOSE",
+                            "labels": [
+                                "Address"
+                            ]
+                        },
+                        "id": "fytbtmUU00",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 183,
+                            "end": 186,
+                            "text": "CAR",
+                            "labels": [
+                                "License_Type"
+                            ]
+                        },
+                        "id": "iu_MBB88j0",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2024-08-04T17:23:47.465751Z",
+                "updated_at": "2024-08-04T17:23:47.465751Z",
+                "draft_created_at": "2024-08-04T17:23:03.589356Z",
+                "lead_time": 49.039,
+                "prediction": {},
+                "result_count": 0,
+                "unique_id": "a08f295a-03e7-42a6-8e05-2fd1d797b8d5",
+                "import_id": null,
+                "last_action": null,
+                "task": 4541,
+                "project": 40,
+                "updated_by": 1,
+                "parent_prediction": null,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "f8df5b68-label_studio_data.json",
+        "drafts": [],
+        "predictions": [
+            1105
+        ],
+        "data": {
+            "text": "DRIVER LICENCE\nVICTORIA AUSTRALIA\nZHANG\nLIU\nLICENCE NO .\n051395622\n2MONTCLAIR CLOSE\nSPRINGVALE SOUTHVIC3172\nLICENCE EXP IRY\n21-03-2024\nDATEOF BIRTH\n20-08-1995\nLICENCE TYPE\nCONDITIONS\nCAR\navicroads",
+            "id": 3227541254,
+            "annotator": 1,
+            "annotation_id": 2461242869,
+            "created_at": "2024-08-04T23:05:54.555408",
+            "updated_at": "2024-08-04T23:05:54.555408",
+            "lead_time": 0.0,
+            "label": []
+        },
+        "meta": {},
+        "created_at": "2024-08-04T17:06:08.543244Z",
+        "updated_at": "2024-08-04T17:23:47.546184Z",
+        "inner_id": 12,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 1,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 40,
+        "updated_by": 1,
+        "comment_authors": []
+    },
+    {
+        "id": 4532,
+        "annotations": [
+            {
+                "id": 3958,
+                "completed_by": 1,
+                "result": [
+                    {
+                        "value": {
+                            "start": 79,
+                            "end": 86,
+                            "text": "6275047",
+                            "labels": [
+                                "License_Number"
+                            ]
+                        },
+                        "id": "QbWPK576i_",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction-changed"
+                    },
+                    {
+                        "value": {
+                            "start": 210,
+                            "end": 211,
+                            "text": "C",
+                            "labels": [
+                                "Class"
+                            ]
+                        },
+                        "id": "vuaSWMAhg6",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "prediction"
+                    },
+                    {
+                        "value": {
+                            "start": 19,
+                            "end": 36,
+                            "text": "WESTERN AUSTRALIA",
+                            "labels": [
+                                "State"
+                            ]
+                        },
+                        "id": "QkLJXVNQNA",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 87,
+                            "end": 92,
+                            "text": "FAKES",
+                            "labels": [
+                                "Last_Name"
+                            ]
+                        },
+                        "id": "3Atkww7zde",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 95,
+                            "end": 114,
+                            "text": "OLDIRONSIDES MIDDLE",
+                            "labels": [
+                                "First_Name"
+                            ]
+                        },
+                        "id": "ifk4iORdhE",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 115,
+                            "end": 153,
+                            "text": "4RAILWAYPARADE\\nWESTLEEDERVILLE WA 6007",
+                            "labels": [
+                                "Address"
+                            ]
+                        },
+                        "id": "Jt-NYjm71n",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    },
+                    {
+                        "value": {
+                            "start": 214,
+                            "end": 222,
+                            "text": "05052000",
+                            "labels": [
+                                "Document_Number"
+                            ]
+                        },
+                        "id": "fU5th7zfvh",
+                        "from_name": "label",
+                        "to_name": "text",
+                        "type": "labels",
+                        "origin": "manual"
+                    }
+                ],
+                "was_cancelled": false,
+                "ground_truth": false,
+                "created_at": "2024-08-04T17:14:22.636751Z",
+                "updated_at": "2024-08-04T17:14:22.636751Z",
+                "draft_created_at": "2024-08-04T17:13:17.174035Z",
+                "lead_time": 76.053,
+                "prediction": {},
+                "result_count": 0,
+                "unique_id": "da25433f-329a-4c24-ae85-3dd81906ffef",
+                "import_id": null,
+                "last_action": null,
+                "task": 4532,
+                "project": 40,
+                "updated_by": 1,
+                "parent_prediction": 1096,
+                "parent_annotation": null,
+                "last_created_by": null
+            }
+        ],
+        "file_upload": "f8df5b68-label_studio_data.json",
+        "drafts": [],
+        "predictions": [
+            1096
+        ],
+        "data": {
+            "text": "ORIVER ' S LICENCE\nWESTERN AUSTRALIA\nDepartimentof\nTransport\nERN\nLICENCENUMBER\n6275047\nFAKES .\nOLDIRONSIDES MIDDLE\n4RAILWAYPARADE\nWESTLEEDERVILLE WA 6007\nEXP IRY DATE\n29 Oct2023\nDATE OF BIRTH\n05 May 2000\nCLASS\nC\n-\n05052000",
+            "id": 4252636971,
+            "annotator": 1,
+            "annotation_id": 2873631654,
+            "created_at": "2024-08-04T23:05:54.555408",
+            "updated_at": "2024-08-04T23:05:54.555408",
+            "lead_time": 0.0,
+            "label": []
+        },
+        "meta": {},
+        "created_at": "2024-08-04T17:06:08.543244Z",
+        "updated_at": "2024-08-04T17:14:22.705766Z",
+        "inner_id": 3,
+        "total_annotations": 1,
+        "cancelled_annotations": 0,
+        "total_predictions": 1,
+        "comment_count": 0,
+        "unresolved_comment_count": 0,
+        "last_comment_updated_at": null,
+        "project": 40,
+        "updated_by": 1,
+        "comment_authors": []
+    }
+]
