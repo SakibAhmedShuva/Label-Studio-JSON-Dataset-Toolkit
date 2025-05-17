@@ -1,26 +1,28 @@
-# Label Studio JSON Dataset Toolkit
+# 🏷️ Label Studio JSON Dataset Toolkit
 
-A Python toolkit for managing, manipulating, and splitting Label Studio JSON datasets with ease. This toolkit provides a comprehensive set of tools for analyzing, modifying, maintaining, and splitting your Label Studio annotations. Sample JSON file provided in "samples" folder.
+A comprehensive Python toolkit for effortlessly managing, manipulating, and splitting Label Studio JSON datasets. This toolkit provides a powerful set of tools for analyzing, modifying, maintaining, and splitting your Label Studio annotations with precision and ease.
 
-## Features
+> Sample JSON file provided in the "samples" folder.
 
-- 📊 View and analyze annotations
-- 📈 Generate label statistics
-- 🔍 Search functionality by labels and tokens
-- ✏️ Label manipulation (remove, merge, rename)
-- 🗑️ Delete annotations based on criteria
-- 💾 Save modified datasets
-- 📂 Split datasets into train/test/validation sets with customizable ratios
-- 📉 Analyze label distribution across splits
+## ✨ Features
 
-## Installation
+- 📊 **View and analyze annotations** with detailed insights
+- 📈 **Generate comprehensive label statistics** for better understanding
+- 🔍 **Advanced search functionality** by labels and tokens
+- ✏️ **Smart label manipulation** (remove, merge, rename)
+- 🗑️ **Intelligent deletion** of annotations based on custom criteria
+- 💾 **Reliable saving** of modified datasets
+- 📂 **Flexible dataset splitting** into train/test/validation sets with customizable ratios
+- 📉 **Deep analysis** of label distribution across splits
+
+## 📥 Installation
 
 ```bash
 git clone https://github.com/SakibAhmedShuva/Label-Studio-JSON-Dataset-Toolkit.git
 cd Label-Studio-JSON-Dataset-Toolkit
 ```
 
-## Usage
+## 🚀 Usage
 
 ### Basic Operations
 
@@ -39,9 +41,8 @@ editor.label_stats()
 # Search by label
 editor.search_by_label('B-PER')
 
-#Search by Token
+# Search by Token
 editor.search_by_token("Florida")
-
 ```
 
 ### Advanced Operations
@@ -72,12 +73,16 @@ from ls_json_toolkit import LabelStudioSplitter
 splitter = LabelStudioSplitter('path/to/your/labelstudio_export.json')
 
 # Split into train/val/test with 70/15/15 ratio
-splits = splitter.split_with_ratios([0.7, 0.15, 0.15], seed=42, 
-                                   output_dir="./splits", analyze=True)
+splits = splitter.split_with_ratios([0.7, 0.15, 0.15], 
+                                   seed=42, 
+                                   output_dir="./splits", 
+                                   analyze=True)
 
 # Alternative: use string format for ratios
-splits = splitter.split_with_ratios("0.7:0.15:0.15", seed=42,
-                                   output_dir="./splits", analyze=True)
+splits = splitter.split_with_ratios("0.7:0.15:0.15", 
+                                   seed=42,
+                                   output_dir="./splits", 
+                                   analyze=True)
 
 # Just split without saving
 splits = splitter.split_data([0.8, 0.2], seed=42)
@@ -86,7 +91,7 @@ splits = splitter.split_data([0.8, 0.2], seed=42)
 splitter.analyze_splits(splits)
 ```
 
-## Example Output
+## 📊 Example Output
 
 When analyzing splits, you'll get detailed information about label distribution:
 
@@ -106,35 +111,33 @@ Split 2 (20 items, 300 annotations):
   Location: 100 (25.0% of total)
 ```
 
-
 ### Save Changes
 
 ```python
 editor.save('updated_dataset.json')
 ```
 
-## Error Handling
+## 🛡️ Error Handling
 
 The toolkit includes robust error handling for:
 - File encoding issues
 - JSON parsing errors
 - File saving failures
 
-## Requirements
+## 🔧 Requirements
 
 - Python 3.6+
 - JSON processing capabilities
 
-## Contributing
+## 👥 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## License
+## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - Label Studio team for their excellent annotation tool
 - Contributors to the project
